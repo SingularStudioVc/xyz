@@ -12372,6 +12372,32 @@ header.masthead {
   background-size: cover;
 }
 
+header.masthead:after {
+  content: "";
+  height: 70px;
+  width: 2px;
+  position: absolute;
+  left: 0px;
+  top: 65%;
+  transition: top, opacity;
+  transition-duration: 600ms;
+  transition-timing-function: ease;
+  background: linear-gradient(transparent,
+      var(--secondaryTheme),
+      transparent);
+  opacity: 0;
+}
+
+header.masthead:after {
+  top: 65%;
+  opacity: 0;
+}
+
+header.masthead:hover:after {
+  top: 25%;
+  opacity: 1;
+}
+
 header.masthead h1,
 header.masthead .h1 {
   font-size: 2.25rem;
