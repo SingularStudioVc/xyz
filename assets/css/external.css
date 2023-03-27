@@ -220,3 +220,11 @@ canvas {
 #contact {
     background-color: white;
 }
+
+/*------------------------------------*\
+    #Footer
+\*------------------------------------*/
+
+.account-social {
+    padding-left: 15px;
+}
