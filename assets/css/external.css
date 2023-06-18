@@ -115,24 +115,7 @@ canvas {
     margin-bottom: 20px;
     width: 90px;
     height: 90px;
-}
-
-.project--logo.logo--super>img {
     border-radius: 25px;
-    background-color: #eed;
-    box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.207);
-    -moz-box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.207);
-    -webkit-box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.207);
-    -o-box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.207);
-    padding: 5px;
-}
-
-.project--logo.logo--tunnel>img {
-    border-radius: 5px;
-}
-
-.project--logo.logo--grocerio>img {
-    border-radius: 50%;
     box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.207);
     -moz-box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.207);
     -webkit-box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.207);
