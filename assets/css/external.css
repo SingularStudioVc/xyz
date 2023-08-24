@@ -1,0 +1,213 @@
+body {
+    text-align: justify;
+}
+
+.bio {
+    font-family: 'PT Sans', sans-serif;
+}
+
+/*------------------------------------*\
+    #FISH CANVAS
+\*------------------------------------*/
+
+svg {
+    display: none;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: -1;
+}
+
+/*------------------------------------*\
+    #FORMS
+\*------------------------------------*/
+.form-control {
+    background-color: #F3F3F3 !important;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    /* line-height: 45px; */
+    /* height: 45px; */
+    /* text-transform: capitalize; */
+    border: none;
+    background: transparent;
+    padding-left: 24px;
+    margin-bottom: 30px;
+    position: relative;
+    border-radius: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #5584ff;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* Placeholder */
+.form-control::-webkit-input-placeholder {
+    color: #999999;
+}
+
+.form-control:-moz-placeholder {
+    color: #999999;
+}
+
+.form-control::-moz-placeholder {
+    color: #999999;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #999999;
+}
+
+.input-group {
+    border-radius: 25px;
+    border: 1px solid #e0e0e0;
+    background-color: transparent;
+    overflow: hidden;
+    padding: 0;
+}
+
+.input-group .btn {
+    border-radius: 0 25px 25px 0;
+}
+
+.input-group .input-group-btn {
+    overflow: hidden;
+}
+
+.btn {
+    font-family: 'PT Sans', sans-serif;
+    position: relative;
+    z-index: 2;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 0;
+    padding: 0;
+    width: 170px;
+    height: 45px;
+    line-height: 44px;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .input-group .btn {
+        width: 120px;
+    }
+}
+
+/*------------------------------------*\
+    #Projects
+\*------------------------------------*/
+
+.project--logo>img {
+    margin-bottom: 20px;
+    width: 90px;
+    height: 90px;
+    border-radius: 25px;
+    box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.207);
+    -moz-box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.207);
+    -webkit-box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.207);
+    -o-box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.207);
+}
+
+/*------------------------------------*\
+    #Team
+\*------------------------------------*/
+
+#team {
+    background-color: white;
+}
+
+.team-panel {
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    transition: all .3s linear;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.team-panel .team--img {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.team-panel .team--body {
+    padding-top: 90px;
+}
+
+.team-panel .team--body p {
+    color: #999999;
+    font-size: 1.15rem;
+    line-height: 28px;
+    font-weight: 300;
+    margin-bottom: 26px;
+}
+
+.team-panel .team--author h5 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.team--img>img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .testimonial-panel .testimonial--img {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0 auto 20px auto;
+        text-align: center;
+    }
+
+    .testimonial-panel .testimonial--body {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .testimonial-panel .testimonial--author h5 {
+        text-align: center;
+    }
+}
+
+/*------------------------------------*\
+    #Contact
+\*------------------------------------*/
+
+#contact {
+    background-color: white;
+}
+
+/*------------------------------------*\
+    #Footer
+\*------------------------------------*/
+
+.account-social {
+    padding-left: 15px;
+}
