@@ -123,6 +123,21 @@ canvas {
 }
 
 /*------------------------------------*\
+    #Super
+\*------------------------------------*/
+
+#super-presentation {
+    background-color: black;
+    color: white;
+}
+
+.carousel-image {
+    max-height: 500px;
+    width: auto;
+    margin: 0 auto;
+}
+
+/*------------------------------------*\
     #Team
 \*------------------------------------*/
 
